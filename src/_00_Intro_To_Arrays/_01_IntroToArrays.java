@@ -26,23 +26,44 @@ public class _01_IntroToArrays {
 
         // 7. make an array of 50 integers
     	Random random = new Random();
-        int intArray = Integer.MAX_VALUE;
-    	int[] intArray1 = new int[50];
-        for (int i = 0; i < intArray1.length; i++) {
-           intArray1[i] = random.nextInt(); 
-           System.out.println(intArray1[i]);
+    	int[] intArray = new int[50];
+        for (int i = 0; i < intArray.length; i++) {
+           intArray[i] = random.nextInt(); 
+           System.out.println(intArray[i]);
         }
+        System.out.println("/////////////////");
+        int minnumber = Integer.MAX_VALUE;
+        for (int i = 0; i < intArray.length; i++) {
+			if (minnumber >  intArray[i]) {
+				minnumber = intArray[i];
+			}
+		}
+        System.out.println(minnumber);
+        System.out.println("//////////////////");
+        
+        int maxnumber = Integer.MIN_VALUE;
+        for (int i = 0; i < intArray.length; i++) {
+			if (maxnumber <  intArray[i]) {
+				maxnumber = intArray[i];
+			}
+		}
+       System.out.println(maxnumber);
+       System.out.println("//////////////////");
+  
+       System.out.println(intArray[intArray.length -1]);
+    
+    }
+
     }
         // 8. use a for loop to make every value of the integer array a random number
     	
         // 9. without printing the entire array, print only the smallest number on the array
-
+    	
         // 10 print the entire array to see if step 8 was correct
     	 
         // 11. print the largest number in the array.
     	 
         // 12. print only the last element in the array
-    }
 
 
 
