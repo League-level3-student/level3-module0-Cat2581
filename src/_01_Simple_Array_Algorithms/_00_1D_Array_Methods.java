@@ -17,13 +17,13 @@ public class _00_1D_Array_Methods {
     //2. Complete the method so that it returns the average of all
     //   of the integers in the array being passed in
     public static double averageIntArray(int[] values) {
-    	double average;
+    	double average = 0;
     	int sums = 0;
     	for (int i = 0; i < values.length; i++) {
 			sums = sums + values[i];
 			average = sums / values.length;
 		}
-       // return average;
+        return average;
     }
 
 
@@ -31,11 +31,11 @@ public class _00_1D_Array_Methods {
     //   array contains the value specified by the second parameter.
     //   It should otherwise return false.
     public static boolean containsIntValue(int[] array, int value) {
-    boolean value
+    boolean values = false;
     	for (int i = 0; i < array.length; i++) {
 		
 	}
-        return false;
+        return values;
     }
 
     //4. Complete the method so that it returns the index of the,
