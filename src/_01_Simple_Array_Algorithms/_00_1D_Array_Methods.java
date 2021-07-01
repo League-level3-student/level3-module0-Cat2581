@@ -33,7 +33,8 @@ public class _00_1D_Array_Methods {
     public static boolean containsIntValue(int[] array, int value) {
     boolean values = false;
     	for (int i = 0; i < array.length; i++) {
-		
+		values = true;
+		System.out.println(values);
 	}
         return values;
     }
