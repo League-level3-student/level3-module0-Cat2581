@@ -33,7 +33,7 @@ public class GridPanel extends JPanel{
 
         setPreferredSize(new Dimension(windowWidth, windowHeight));
 
-        // 2. Initialize the pixel array using the rows and cols variables.
+        // 2. Initialize the pixel array using the rows and collums variables.
 
 
         // 3. Iterate through the array and initialize each element to a new pixel.
